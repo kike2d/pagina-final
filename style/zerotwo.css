@@ -1,0 +1,36 @@
+#zerotwo {
+    background: #333333;
+    color: #ffffff;
+    text-align: center; 
+    padding: 20px;
+}
+
+#zerotwo .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.perros {
+    margin: 20px;
+}
+
+.perros img {
+    width: 100%;
+    max-width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid white;
+}
+
+@media (min-width:480px) {
+    .perros {
+        width: 40%;
+    }
+}
+
+@media (min-width:1024px) {
+    .perros {
+        width: auto;
+    }
+}
